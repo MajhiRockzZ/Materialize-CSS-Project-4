@@ -1,0 +1,9 @@
+.main-header {
+    background: url(../img/showcase.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 600px;
+    color: #fff;
+    position: relative;
+}
