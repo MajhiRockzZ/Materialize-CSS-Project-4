@@ -46,6 +46,11 @@
 
 }
 
+.section-contact .card-panel {
+    position: relative;
+    z-index: 1;
+}
+
 #googlemap {
     position: absolute;
     height: 100%;
