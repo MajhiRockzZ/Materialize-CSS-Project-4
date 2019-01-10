@@ -62,6 +62,8 @@
       </div>
     </div>
   </header>
+  
+  <!-- <div style="height:1600px"></div> -->
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -82,7 +84,8 @@
         selector: '.navbar-fixed',
         offset: 1500,
         callback: function () {
-          $(nav).removeClass('transparent').addClass('blue-grey darken-3');
+          $('nav').removeClass('transparent');
+          $('nav').addClass('blue-grey darken-3');
         }
       }];
 
